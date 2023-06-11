@@ -38,7 +38,3 @@ This is the section where i list all of my experiments that i have came across.
 ### Guest Devices 
 
 In case of a complete tech failure on my end, I have a guest device that I can rely on to continue my work. This device has its dedicated section in my development setup. However, it is essential to note that this device must be returned to its owner in its original state. Therefore, all configuration changes made should be reverted back to their initial settings.
-
-
-
-
