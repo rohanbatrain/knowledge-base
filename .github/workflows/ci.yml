@@ -28,6 +28,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material pillow cairosvg
-
-
+      - run: git config --global user.name "Rohan Batra Github-Worker"
+      - run: git config --global user.email "116573125+rohanbatrain@users.noreply.github.com"
       - run: mkdocs gh-deploy --force
