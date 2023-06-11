@@ -20,13 +20,20 @@ The Dell Latitude E6420 was a refurbished laptop that served me well since 2018.
 
 The OnePlus 8T is a device I borrowed from a senior to explore Android development, root the device, and gain hands-on experience. This device has become my temporary ally after my Samsung F62 was stolen. I am excited to delve into the world of Android development using this powerful smartphone. Links to this section is as follows.
 
-##### Production
+##### [Production](/Developement-Setup/Android/One-Plus/Kebab/production)
 
 This is the setup i use in my day to day life, it is documented in a most up to date manner.
 
 ##### Testing 
 
-This is the section where i list all of my experiments that i have came across
+This is the section where i list all of my experiments that i have came across.
+
+1. [cr-droid]()
+2. [evolution-x]()
+3. [fresh-device]()
+4. [kali-nethunter]()
+5. [lineage-os]()
+6. [nameless-aosp]()
 
 ### Guest Devices 
 
