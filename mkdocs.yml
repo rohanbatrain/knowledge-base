@@ -3,6 +3,7 @@ theme:
   name: material
   features:
   - navigation.tabs
+  - navigation.sections
   - navigation.tabs.sticky
   - navigation.top
   - search.suggest
@@ -15,15 +16,38 @@ plugins:
   - social 
 
 
+repo_url: https://github.com/rohanbatrain/Knowledge-Base
+repo_name: rohanbatrain/Knowledge-Base
+
 
 extra_javascript:
   - javascripts/extra.js
 
 nav:
-    - Home: 'index.md'
-    - Developement-Setup: 
-      - Android: 
-        - OnePlus: 
-          - Kebab: "developement-setup/Android/One-Plus/Kebab.md"
-      - Windows: developement-setup/Windows.md
-      - Linux: developement-setup/Linux.md      
+  - Home: 
+    - Introduction: "Home/Introduction.md"
+    - Developement-Setup: "Home/Developement-Setup.md"
+  - Developement-Setup: 
+    - 'Android':
+      - 'OnePlus': 
+        - 'Kebab': 
+            - 'Production': 'Developement-Setup/Android/One-Plus/Kebab/production.md'
+            - 'Testing': 
+              - Fresh-Device : "Developement-Setup/Android/One-Plus/Kebab/Testing/fresh-device.md"
+              - CR-Droid : "Developement-Setup/Android/One-Plus/Kebab/Testing/cr-droid.mdgit "
+              - Evolution-X : "Developement-Setup/Android/One-Plus/Kebab/Testing/evolution-x.md"
+              - Kali-Nethunter : "Developement-Setup/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
+              - Lineage-OS : "Developement-Setup/Android/One-Plus/Kebab/Testing/lineage-os.md"
+              - Nameless-aosp : "Developement-Setup/Android/One-Plus/Kebab/Testing/nameless-aosp.md"
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contact@rohanbatra.in
+
+
+copyright: Copyright &copy; 2022 - 2023 Rohan Batra
+
+
+
