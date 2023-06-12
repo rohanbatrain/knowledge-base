@@ -68,14 +68,14 @@ nav:
     - 'Android':
       - 'OnePlus': 
         - 'Kebab': 
-            - 'Production': 'Developement-Setup/Android/One-Plus/Kebab/production.md'
+            - 'Production': 
+              - July-2023: 'Developement-Setup/Android/One-Plus/Kebab/2023/June/production.md'
             - 'Testing': 
               - Fresh-Device : "Developement-Setup/Android/One-Plus/Kebab/Testing/fresh-device.md"
-              - CR-Droid : "Developement-Setup/Android/One-Plus/Kebab/Testing/cr-droid.mdgit "
               - Evolution-X : "Developement-Setup/Android/One-Plus/Kebab/Testing/evolution-x.md"
               - Kali-Nethunter : "Developement-Setup/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
               - Lineage-OS : "Developement-Setup/Android/One-Plus/Kebab/Testing/lineage-os.md"
-              - Nameless-aosp : "Developement-Setup/Android/One-Plus/Kebab/Testing/nameless-aosp.md"
+
 
 extra:
   generator: false
