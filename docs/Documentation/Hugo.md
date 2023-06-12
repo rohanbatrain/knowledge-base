@@ -27,7 +27,7 @@ cd themes/PaperMod
 git pull
 ```
 
-### Configuration
+## Configuration
 
 I used the following yaml for starting point from papermod wiki:
 
@@ -38,6 +38,56 @@ baseURL: "https://rohanbatra.in/blog/"
 title: Rohan's Blog
 paginate: 5
 theme: PaperMod
+params:
+  # defaultTheme: light
+  # defaultTheme: dark
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  editPost:
+    URL: "https://github.com/rohanbatrain/Blog/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+  defaultTheme: dark
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  author: ["Rohan"]
+  profileMode:
+        enabled: true
+        title: "Rohan Batra" # optional default will be site title
+        #subtitle: "My Blog"
+        imageUrl: "<image link>" # optional
+        imageTitle: "Rohan Batra image" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Donate
+              url: "donate"
+            - name: Github
+              url: "https://github.com/rohanbatrain"
+  socialIcons: # optional
+        - name: "Github"
+          url: "<link>"
+        - name: "Instagram"
+          url: "<link2>"
+        - name: Rss
+          url: "index.xml"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
 ```
 
 2. archetypes/default.md
@@ -66,3 +116,12 @@ url: "/archives/"
 summary: archives
 ---
 ```
+
+4. Make folders and files 
+
+You would make:
+
+* content/categories.md
+* content/archive.md
+* content/search.md
+* content/donate.md
