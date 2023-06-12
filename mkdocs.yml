@@ -64,6 +64,7 @@ nav:
   - Home: 
     - Introduction: "index.md"
     - Developement-Setup: "Home/Developement-Setup.md"
+    - Documentation: "Home/Documentation.md"
   - Developement-Setup: 
     - 'Android':
       - 'OnePlus': 
@@ -75,6 +76,8 @@ nav:
               - Evolution-X : "Developement-Setup/Android/One-Plus/Kebab/Testing/evolution-x.md"
               - Kali-Nethunter : "Developement-Setup/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
               - Lineage-OS : "Developement-Setup/Android/One-Plus/Kebab/Testing/lineage-os.md"
+  - Documentation:
+    - Hugo: "Documentation/Hugo.md"            
 
 
 extra:
