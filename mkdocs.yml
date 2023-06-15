@@ -64,22 +64,36 @@ nav:
   - Home: 
     - Introduction: "index.md"
     - Developement-Setup: "Home/Developement-Setup.md"
-    - Documentation: "Home/Documentation.md"
+    - SOPs: "Home/SOPs.md"
+    - Track-Record: "Home/Track-Record.md"
+    #- Documentation: "Home/Documentation.md"
     - Archive: "Home/Archive.md"
     
   - Developement-Setup: 
       - Owned Devices:
-        - 'Android':
-          - 'OnePlus': 
-            - 'Kebab': 
-                - 'Production': 
-                  - July-2023: 'Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/2023/June/production.md'
-                - 'Testing': 
+        - Android:
+          - OnePlus: 
+            - Kebab: 
+                - Production: 
+                  - July-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/June/production.md"
+                - Testing: 
                   - Fresh-Device : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/fresh-device.md"
                   - Evolution-X : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/evolution-x.md"
                   - Kali-Nethunter : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
                   - Lineage-OS : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/lineage-os.md"
+      - Guest Devices:
+        - Laptops:
+          - HP-Pavilion-Convertable-360: "Developement-Setup/Guest-Devices/Laptops/HP-Pavilion-360-Convertable.md"
   #- Documentation:
+  - SOPs:
+    - Educational:
+      - Note-Taking: "SOPs/Note-Taking.md" 
+      - Courses: "SOPs/Courses.md"
+      - Flashcards: "SOPs/Flashcards.md"
+    - Personal Brand:
+      - Marketing: "SOPs/Marketing.md"
+      - Emails: "SOPs/Emails.md"
+
   - Archive:
     - Hugo: "Archive/Hugo.md"            
 

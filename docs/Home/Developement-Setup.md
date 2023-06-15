@@ -47,4 +47,4 @@ I borrowed the following laptops at their respective time frames. I have segment
 
 #### 2023
 
-1. HP Pavilion convertable 360 : This was the laptop i borrowed when my dell latitude motherboard got fried and i was in between of a decision to buy a new one or to fix this itself. That decision making took so long that i ended up getting into college, LOL.
+1. HP Pavilion convertable 360 : This was the laptop i borrowed when my dell latitude motherboard got fried and i was in between of a decision to buy a new one or to fix this itself. This decision making took so long that i ended up getting into college, LOL.
