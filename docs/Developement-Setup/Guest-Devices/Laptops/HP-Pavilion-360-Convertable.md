@@ -65,6 +65,4 @@ Here's my codium setup:
 in order to login to github using my ssh keys i copied my ssh keys to ~/.ssh/ directory but i was getting a too open private key error. So, in order to fix that i made my ssh directory to be 777 and id_rsa to be 600. and now Github is authenticated.
 
 
-```bash
-# (same termux steps were followed)
-```
+<script src="https://gist.github.com/rohanbatrain/34f1414edeaea965c7dedd59f662a815.js"></script>
