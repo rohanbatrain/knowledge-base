@@ -3,7 +3,7 @@
 I received this laptop with windows 10 as its operating system. I haven't been used to windows for my day to day use and as this is a guest laptop i wasn't allowed to swap hard drives. So i used a usb to sata connector and took my ssd out from my dell latitude and then plugged it in. Here's the walkthrough.
 
 
-## Installing Linux (June-2023)
+## Installing GNU/Linux's Cachy-OS (June-2023)
 
 These are the steps i followed to use linux without disturbing the guest operating system.
 
@@ -21,6 +21,7 @@ Home/
     Rohan/
         Github/
         Builds/
+        Applications/
 ```
 
 ### Updates
@@ -39,10 +40,12 @@ The following are the packages that have been installed using pacman.
 2. python-pip
 3. yay
 4. veracrypt
+5. obs-studio
 
 #### Yay 
 
 1. vscodium-bin : I installed support for marketplace and other features.
+2. gitkraken: 
 
 ### Application Configs
 
@@ -62,7 +65,17 @@ Here's my codium setup:
 
 #### Setting up Git
 
-in order to login to github using my ssh keys i copied my ssh keys to ~/.ssh/ directory but i was getting a too open private key error. So, in order to fix that i made my ssh directory to be 777 and id_rsa to be 600. and now Github is authenticated.
+in order to login to github using my ssh keys i copied my ssh keys to ~/.ssh/ directory but i was getting a too open private key error. So, in order to fix that i made my ssh directory to be 700 and id_rsa to be 600. and now Github is authenticated.
 
 
-<script src="https://gist.github.com/rohanbatrain/34f1414edeaea965c7dedd59f662a815.js"></script>
+```bash
+#!/bin/bash
+
+cd ~/.ssh/
+git config --global user.name "Rohan Batra"
+git config --global user.email "116573125+rohanbatrain@users.noreply.github.com"
+git config --global gpg.format ssh
+git config --global commit.gpgsign true
+git config --global user.signingkey ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+```

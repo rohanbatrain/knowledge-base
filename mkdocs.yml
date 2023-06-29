@@ -63,13 +63,12 @@ extra_javascript:
 nav:
   - Home: 
     - Introduction: "index.md"
-    - Developement-Setup: "Home/Developement-Setup.md"
-    - SOPs: "Home/SOPs.md"
     - Track-Record: "Home/Track-Record.md"
     #- Documentation: "Home/Documentation.md"
     - Archive: "Home/Archive.md"
     
-  - Developement-Setup: 
+  - Developement-Setup:
+      - Introduction: "Developement-Setup/Developement-Setup.md"
       - Owned Devices:
         - Android:
           - OnePlus: 
@@ -81,11 +80,14 @@ nav:
                   - Evolution-X : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/evolution-x.md"
                   - Kali-Nethunter : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
                   - Lineage-OS : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/lineage-os.md"
+        - Laptops:
+          - Dell-Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell-Latitude-E6420.md"
       - Guest Devices:
         - Laptops:
           - HP-Pavilion-Convertable-360: "Developement-Setup/Guest-Devices/Laptops/HP-Pavilion-360-Convertable.md"
   #- Documentation:
   - SOPs:
+    - Introduction: "SOPs/SOPs.md"
     - Educational:
       - Note-Taking: "SOPs/Note-Taking.md" 
       - Courses: "SOPs/Courses.md"
