@@ -33,8 +33,7 @@ theme:
 
 ```
 
-4. We are trying and learning load balancing along the way, i would be using three different providers for this site. Cloudflare, Netlify and github pages.
-5. Added custom js
+4. Added custom js
 
 ```yaml
 extra_javascript:
