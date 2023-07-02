@@ -68,7 +68,7 @@ nav:
     - Archive: "Home/Archive.md"
     
   - Developement-Setup:
-      - Introduction: "Developement-Setup/Developement-Setup.md"
+      - Introduction: "Developement-Setup/Introduction.md"
       - Owned Devices:
         - Android:
           - OnePlus: 
@@ -85,7 +85,10 @@ nav:
       - Guest Devices:
         - Laptops:
           - HP-Pavilion-Convertable-360: "Developement-Setup/Guest-Devices/Laptops/HP-Pavilion-360-Convertable.md"
-  #- Documentation:
+  - Documentation:
+    - Introduction: "Documentation/Introduction.md"
+    - Obsidian: 
+      - Second-Brain-Template: "Documentation/Obsidian-Setup/Second-Brain-Template.md"
   - SOPs:
     - Introduction: "SOPs/SOPs.md"
     - Educational:

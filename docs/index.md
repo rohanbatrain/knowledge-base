@@ -6,5 +6,5 @@ This site is my home for all kinds of documentation that i wish to do public.  I
 
 ## Section Links
 
-* [Developement-Setup Introduction](./Developement-Setup/Developement-Setup.md)
+* [Developement-Setup Introduction](./Developement-Setup/Introduction.md)
 * [SOPs Introduction](./SOPs/SOPs.md)

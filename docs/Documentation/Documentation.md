@@ -1,1 +1,0 @@
-This is the place where i leave my notes on my developement projects, my way of doing things.
