@@ -40,16 +40,35 @@ I did the following in June
     3. Proxmox
     4. Windows-10
 
-2. I have used the following softwares:
-    1. Custom Rom Specific
-        1. Qualcom MSM
-        2. Android Debug Bridge
-        3. Fastboot Tools
-    2. 
+2. I have used the following softwares specific to custom rom project:
+    1. Qualcom MSM
+    2. Android Debug Bridge
+    3. Fastboot Tools
+
 
 
 #### Web Specific
 
+
+### July
+
+I have devoted this month to prepare to get into college, so had a little bit fun with friends and got lazy as hell thinking to compensate for it later in the college hours, thoughts were like, will engineers get enough sleep? Answer to this question varies with time and experience. 
+
+Projects that were done here is obsidian.
+
+#### Obsidian
+
+1. [Second Brain Template 2023]
+
+This is the vault that has been updated and being re-wrote from scratch to work with the current requirements. All the templates have been updated and published in order to act as a building block of other personal knowledge management projects.
+
+#### Oneplus 
+
+This was my production setup for the July month. You can view that [here](../Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/July/production.md)
+
+### August
+
+Yes, finally college routine is in action. Now we have a room (P.G.) in which we are going to do all server related stuff for perhaps the next 4 years or so. My setup walkthrough will be linked here accordingly once it's ready.
 
 
 [^1]: In kali nethunter, I learned how to brick my phone, and thus end up learning about edl and qualcom flashing of factory firmware using msm

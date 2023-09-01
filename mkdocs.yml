@@ -43,7 +43,7 @@ markdown_extensions:
 plugins:
   - search:
       lang: en
-  - social 
+  # - social   # not working on windows due to gtk tools error and other errors which req cairo and dll's. 
 
 
 repo_url: https://github.com/rohanbatrain/Knowledge-Base
@@ -52,7 +52,6 @@ repo_name: rohanbatrain/Knowledge-Base
 
 extra_javascript:
   - javascripts/extra.js
-
   - javascripts/katex.js
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -65,30 +64,66 @@ nav:
     - Introduction: "index.md"
     - Track-Record: "Home/Track-Record.md"
     #- Documentation: "Home/Documentation.md"
-    - Archive: "Home/Archive.md"
+    #- Archive: "Home/Archive.md"
     
   - Developement-Setup:
       - Introduction: "Developement-Setup/Introduction.md"
       - Owned Devices:
+        - Apple: 
+          - Iphone:
+            - Iphone-6s: 
+              - August-2023:
+                - Production: "Developement-Setup/Owned-Devices/Apple/Iphone/6s/2023/August/Production.md"
+              - Testing
         - Android:
           - OnePlus: 
             - Kebab: 
                 - Production: 
-                  - July-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/June/production.md"
+                  - July-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/July/production.md"
+                  - August-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md"
                 - Testing: 
                   - Fresh-Device : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/fresh-device.md"
                   - Evolution-X : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/evolution-x.md"
                   - Kali-Nethunter : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
                   - Lineage-OS : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/lineage-os.md"
         - Laptops:
-          - Dell-Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell-Latitude-E6420.md"
+          - Dell:
+            - June-2023:
+              - Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell/2023/June/Dell-Latitude-E6420.md"
+          - MSI-GF63-Thin:
+            - August-2023: 
+              - Introduction: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
+              - Micron: 
+                - Windows-11: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Windows-11.md" 
+                - Manjaro: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"
+              - Crucial:
+                - Proxmox: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Proxmox.md" 
+      - Team Devices: 
+        #- Android
+        - Desktops:
+          - Introduction: "Developement-Setup/Team-Devices/Introduction.md"
+          - Vina: 
+            - July-2023: 
+              - Introduction: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Introduction.md"
+              - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Installation.md"
+              - Post-Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Post-Installation.md"
+            # - August-2023
+
+        #- Laptops
       - Guest Devices:
         - Laptops:
           - HP-Pavilion-Convertable-360: "Developement-Setup/Guest-Devices/Laptops/HP-Pavilion-360-Convertable.md"
   - Documentation:
     - Introduction: "Documentation/Introduction.md"
     - Obsidian: 
-      - Second-Brain-Template: "Documentation/Obsidian-Setup/Second-Brain-Template.md"
+      - Second-Brain-Template: "Documentation/Obsidian/Second-Brain-Template.md"
+    - Python: 
+      - Projects: 
+        - Second-Brain-API: "Documentation/Python/Projects/Second-Brain-API.md"
+        - Second-Brain-Tools-2022: "Documentation/Python/Projects/Second-Brain-Tools-2022.md"
+      - Tutorials: 
+        - Windows: 
+          - Powershell-Environment: "Documentation/Python/Tutorials/Windows/Powershell-environment.md"
   - SOPs:
     - Introduction: "SOPs/SOPs.md"
     - Educational:
@@ -98,8 +133,8 @@ nav:
     - Personal Brand:
       - Marketing: "SOPs/Marketing.md"
       - Emails: "SOPs/Emails.md"
-
   - Archive:
+    - Introduction: "Archive/Introduction.md"
     - Hugo: "Archive/Hugo.md"            
 
 

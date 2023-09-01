@@ -6,6 +6,24 @@ Welcome to the Development Setup Section!
 
 This wiki is dedicated to documenting my development setup configuration. Here, you will find a detailed journal of my daily progress and the steps I undertake during my setup process. Whether you are a fellow developer or simply curious about development environments, this wiki aims to provide insights, tips, and solutions to various challenges encountered during the setup process.
 
+## Naming Scheme
+
+In July-2023 we have come up with a naming convention for all our future devices. Devices like Dell-Latitude, Androids before this date doesn't follow these naming conventions.  They will be incorporated on an continous integration and migration workflow.
+
+### What? 
+
+> What exactly are rules for naming?
+
+We are using musical instruments to name our devices. Like Vina, Sitar etc. Prefering Sanskrit language wherever possible.
+
+
+### Where?
+
+You can find respective mocs for those below. 
+
+1. [Team Devices Naming](./Team-Devices/Introduction.md)
+
+
 ## Owned-Devices
 
 These are the devices which i own and have complete control over
@@ -22,7 +40,7 @@ The Dell Latitude E6420 was a refurbished laptop that served me well since 2018.
 
 The OnePlus 8T is a device I was gifted by a senior to explore Android development, root the device, and gain hands-on experience. This device has become my ally after my Samsung F62 was stolen. I am excited to delve into the world of Android development using this powerful smartphone. Links to this section is as follows.
 
-##### [Production](/Developement-Setup/Android/One-Plus/Kebab/production)
+##### [Production](../Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md)
 
 This is the setup i use in my day to day life, it is documented in a most up to date manner.
 

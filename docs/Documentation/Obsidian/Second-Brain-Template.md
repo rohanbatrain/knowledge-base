@@ -174,13 +174,3 @@ These are the plugins that i use:
 7. templater-obsidian
 8. 
 
-
-#### Periodic Notes
-
-1. Setup daily note folder
-
-
-#### Templater
-
-1. Toggle listen new file creation to true
-
