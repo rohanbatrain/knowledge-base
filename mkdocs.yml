@@ -74,13 +74,15 @@ nav:
             - Iphone-6s: 
               - August-2023:
                 - Production: "Developement-Setup/Owned-Devices/Apple/Iphone/6s/2023/August/Production.md"
-              - Testing
+              - September-2023:
+                - Production: "Developement-Setup/Owned-Devices/Apple/Iphone/6s/2023/September/Production.md"
         - Android:
           - OnePlus: 
             - Kebab: 
                 - Production: 
                   - July-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/July/production.md"
                   - August-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md"
+                  - September-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/September/production.md"
                 - Testing: 
                   - Fresh-Device : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/fresh-device.md"
                   - Evolution-X : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/evolution-x.md"
@@ -107,7 +109,9 @@ nav:
               - Introduction: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Introduction.md"
               - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Installation.md"
               - Post-Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Post-Installation.md"
-            # - August-2023
+            - September: 
+              - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/September/Installation.md"
+
 
         #- Laptops
       - Guest Devices:

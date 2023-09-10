@@ -38,3 +38,9 @@ Yes i was also missing some enhancements which comes with android 13, so the sol
 
 Rom = Derpfest
 
+Although in my particular device i tried making a system partition with size of 60 gb which i cancelled in mid progress. After that incident i am now unable to flash anything with dsu sideloader. It feels like my dynamic partition table is gone. 
+
+
+## Finance Apps 
+
+I was able to run finance apps partially on my device with custom kernel and root access. 
