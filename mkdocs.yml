@@ -13,7 +13,6 @@ theme:
   - content.code.copy
 
 
-
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -89,7 +88,7 @@ nav:
                   - Kali-Nethunter : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
                   - Lineage-OS : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/lineage-os.md"
         - Laptops:
-          - Dell:
+          - Dell-Latitude-E6420:
             - June-2023:
               - Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell/2023/June/Dell-Latitude-E6420.md"
           - MSI-GF63-Thin:
