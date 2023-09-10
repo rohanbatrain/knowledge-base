@@ -88,12 +88,12 @@ nav:
                   - Kali-Nethunter : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/kali-nethunter.md"
                   - Lineage-OS : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/lineage-os.md"
         - Laptops:
-          - Dell-Latitude-E6420:
+          - Dell:
             - June-2023:
               - Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell/2023/June/Dell-Latitude-E6420.md"
-          - MSI-GF63-Thin:
+          - MSI:
             - August-2023: 
-              - Introduction: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
+              - GF63-Thin: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
               - Micron: 
                 - Windows-11: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Windows-11.md" 
                 - Manjaro: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"

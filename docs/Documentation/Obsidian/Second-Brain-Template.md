@@ -6,7 +6,7 @@ This is how i used obsidian template for my personalized vault. My vault instanc
 
 This is what template directory structure looks like:
 
-```
+```bash
 ├.
 ├── Attachments
 │   ├── College
