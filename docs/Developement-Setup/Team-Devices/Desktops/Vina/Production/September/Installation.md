@@ -1,8 +1,8 @@
-# Proxmox Virtual Environment (PVE)
+## Proxmox Virtual Environment (PVE)
 
 Target Harddisk: /dev/sdb WDC WDS240G2G0B
 
-# HardDisk Options 
+### HardDisk Options 
 
 Filesystem: xfs
 hdsize : 223.0
@@ -11,19 +11,19 @@ maxroot:  30
 minfree: NULL
 maxvz: NULL
 
-# Location and Time Zone selection
+### Location and Time Zone selection
 
 Country: India
 Time zone: Asia/Kolkata
 Keyboard Layout: U.S. English
 
-# Administration Password and Email Address
+### Administration Password and Email Address
 
 Password: ********
 Confirm: ********
 Email: vina-pve@xxxx.xx
 
-# Management Network Configuration
+### Management Network Configuration
 
 Management Interface: enp34s0 
 Hostname (FQDN): vina-pve.xxxx.in
