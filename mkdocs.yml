@@ -64,7 +64,6 @@ nav:
     - Track-Record: "Home/Track-Record.md"
     #- Documentation: "Home/Documentation.md"
     #- Archive: "Home/Archive.md"
-    
   - Developement-Setup:
       - Introduction: "Developement-Setup/Introduction.md"
       - Owned Devices:

@@ -1,9 +1,46 @@
 
-### Manjaro 
-
-#### Packages Installed
+## Packages Installed
 
 1. vim 
-2. vscodium
+2. paru
 3. tree
+4. intel-media-driver 
 
+## Paru packages
+
+1. vscodium
+2. qrcodegencpp (required by obs-studio)
+3. obs-studio-git (be sure to use -git instead of obs-studio standalone cause i have faced several dependency error which resulted in segmentation fault and core dump)
+4. droidcam
+5. droidcam-obs-plugin
+6. v4l2loopback-dc
+
+
+## Setup
+
+### Droidcam
+
+After a lot of debugging and trying to install droidcam now i made progress.
+
+* Use the following command in order to know your linux headers
+
+```bash
+mhwd-kernel -li
+```
+
+* then install it by :
+
+```bash
+sudo pacman -S <linux-header name> 
+```
+
+#### Failed
+
+After a lot of time spending this linux61 kernel has some issues.
+
+```bash
+uname -r 
+> 6.1.51-1-MANJARO
+```
+
+This particular version wasn't able to install droidccam v413loopback drivers.
