@@ -1,4 +1,4 @@
-### Windows 11
+## Windows 11
 
 Software installed
 
@@ -12,7 +12,13 @@ Software installed
 8. git (winget) 
 
 
-#### Git setup
+### Outlook 
+
+- Added student email provided by upes.
+
+
+
+### Git setup
 
 ![windows-git.png](../../../../../../../attachments/sitar-windows-1.png)
 
@@ -28,11 +34,11 @@ Ran on git bash window.
 ![windows-git.png](../../..../../../../../../../attachments/sitar-windows-2.png)
 
 
-#### VSCODIUM  
+### VSCODIUM  
 
 Our primary IDE in windows is vscodium.
 
-##### Extentions
+#### Extentions
 
 
 1. Python
@@ -41,9 +47,9 @@ Our primary IDE in windows is vscodium.
 While setting up python environment, i got an error of powershell scripts are disabled by default. you can find the fix [here](https:\go.microsoft.com\fwlink\?LinkID=135170) or the tutorial is [here](../../../../../../../Documentation/Python/Tutorials/Windows/Powershell-environment.md) 
 
 
-#### Documents
+### Documents
 
-##### Projects
+#### Projects
 
 1. Knowledge Base
 2. Lucky 
