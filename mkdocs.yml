@@ -66,6 +66,7 @@ nav:
     #- Archive: "Home/Archive.md"
   - Developement-Setup:
       - Introduction: "Developement-Setup/Introduction.md"
+      - Device-Names: "Developement-Setup/Naming.md"
       - Owned Devices:
         - Apple: 
           - Iphone:
@@ -101,16 +102,12 @@ nav:
       - Team Devices: 
         #- Android
         - Desktops:
-          - Introduction: "Developement-Setup/Team-Devices/Introduction.md"
           - Vina: 
             - July-2023: 
-              - Introduction: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Introduction.md"
               - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Installation.md"
               - Post-Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Post-Installation.md"
             - September-2023: 
               - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/September/Installation.md"
-
-
         #- Laptops
       - Guest Devices:
         - Laptops:

@@ -21,7 +21,7 @@ We are using musical instruments to name our devices. Like Vina, Sitar etc. Pref
 
 You can find respective mocs for those below. 
 
-1. [Team Devices Naming](./Team-Devices/Introduction.md)
+1. [Team Devices Naming](Naming.md)
 
 
 ## Owned-Devices
@@ -46,9 +46,12 @@ codename : Sitar
 
 The OnePlus 8T is a device I was gifted by a senior to explore Android development, root the device, and gain hands-on experience. This device has become my ally after my Samsung F62 was stolen. I am excited to delve into the world of Android development using this powerful smartphone. Links to this section is as follows.
 
-##### [Production](../Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md)
+##### Production
 
 This is the setup i use in my day to day life, it is documented in a most up to date manner.
+
+* [August-2023](../Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md)
+* [September-2023]()
 
 ##### Testing 
 
