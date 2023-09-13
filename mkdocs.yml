@@ -13,7 +13,6 @@ theme:
   - content.code.copy
 
 
-
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -65,9 +64,9 @@ nav:
     - Track-Record: "Home/Track-Record.md"
     #- Documentation: "Home/Documentation.md"
     #- Archive: "Home/Archive.md"
-    
   - Developement-Setup:
       - Introduction: "Developement-Setup/Introduction.md"
+      - Device-Names: "Developement-Setup/Naming.md"
       - Owned Devices:
         - Apple: 
           - Iphone:
@@ -92,9 +91,9 @@ nav:
           - Dell:
             - June-2023:
               - Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell/2023/June/Dell-Latitude-E6420.md"
-          - MSI-GF63-Thin:
+          - MSI:
             - August-2023: 
-              - Introduction: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
+              - GF63-Thin: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
               - Micron: 
                 - Windows-11: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Windows-11.md" 
                 - Manjaro: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"
@@ -103,10 +102,8 @@ nav:
       - Team Devices: 
         #- Android
         - Desktops:
-          - Introduction: "Developement-Setup/Team-Devices/Introduction.md"
           - Vina: 
             - July-2023: 
-              - Introduction: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Introduction.md"
               - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Installation.md"
               - Post-Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Post-Installation.md"
             - September-2023: 
@@ -117,8 +114,6 @@ nav:
               - M2-13-inch:
                 - September-2023:
                   - Production: "Developement-Setup/Team-Devices/Laptops/Apple/MacBook-Air/M2-13-inch/2023/September/Production.md"
-
-        #- Laptops
       - Guest Devices:
         - Laptops:
           - HP-Pavilion-Convertable-360: "Developement-Setup/Guest-Devices/Laptops/HP-Pavilion-360-Convertable.md"
