@@ -111,7 +111,12 @@ nav:
               - Post-Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Post-Installation.md"
             - September-2023: 
               - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/September/Installation.md"
-
+        - Laptops:
+          - Apple:
+            - MacBook-Air:
+              - M2-13-inch:
+                - September-2023:
+                  - Production: "Developement-Setup/Team-Devices/Laptops/Apple/MacBook-Air/M2-13-inch/2023/September/Production.md"
 
         #- Laptops
       - Guest Devices:
