@@ -34,6 +34,12 @@ These are the devices which i own and have complete control over
 
 The Dell Latitude E6420 was a refurbished laptop that served me well since 2018. Unfortunately, on May 1st, 2023, it encountered a critical issue during my git setup and failed the power on self test (POST). With a heavy heart, I bid farewell to my trusty companion.
 
+
+#### MSI GF63 Thin (2023-Present)
+
+codename : Sitar
+
+
 ### Android
 
 #### OnePlus 8T (2023-Present)
@@ -54,6 +60,32 @@ This is the section where i list all of my experiments that i have came across.
 4. [kali-nethunter]()
 5. [lineage-os]()
 6. [nameless-aosp]()
+
+### Apple
+
+#### Iphone-6s (2023-Present)
+
+
+
+## Team Devices
+
+These are the devices which i/we manage for my team. In which i have partial or complete control over the decisions on how to deploy and utilise them.
+
+### Desktops
+
+#### Vina
+
+Vina is our desktop 
+
+### Laptops
+
+
+#### Ektara
+
+Ektara is our macbook m2 air 13 inch
+
+
+
 
 ## Guest Devices 
 

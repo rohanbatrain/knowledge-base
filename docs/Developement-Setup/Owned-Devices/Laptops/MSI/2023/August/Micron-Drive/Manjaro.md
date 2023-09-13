@@ -43,4 +43,15 @@ uname -r
 > 6.1.51-1-MANJARO
 ```
 
-This particular version wasn't able to install droidccam v413loopback drivers.
+This particular version wasn't able to install droidccam v412loopback drivers. 
+
+
+##### Fallback
+
+This is future me from morning now my system takes 1.28 mins unnecesarily to try to load the kernel module which always fails.
+
+Removing the following packages in order to fix it
+
+```bash
+sudo pacman -R linux61-headers droidcam
+```
