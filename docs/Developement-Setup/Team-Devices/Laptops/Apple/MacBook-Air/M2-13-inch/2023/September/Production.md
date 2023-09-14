@@ -7,4 +7,3 @@
 
 ## Setup
 - Created a new Apple ID and signed in from the Apple Account option in system settings.
-- TESTING
