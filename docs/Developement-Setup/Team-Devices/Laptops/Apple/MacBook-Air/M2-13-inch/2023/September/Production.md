@@ -5,4 +5,5 @@
     - https://www.youtube.com/watch?v=JNA2TSXatuU
     - https://www.youtube.com/watch?v=xNDRWXnLKH0
 
-    
+## Setup
+- Created a new Apple ID and signed in from the Apple Account option in system settings.
