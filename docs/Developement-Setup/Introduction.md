@@ -10,6 +10,12 @@ This wiki is dedicated to documenting my development setup configuration. Here, 
 
 In July-2023 we have come up with a naming convention for all our future devices. Devices like Dell-Latitude, Androids before this date doesn't follow these naming conventions.  They will be incorporated on an continous integration and migration workflow.
 
+## Timeline 
+
+We have chosen to add documentation based on time frame. Like for example i started proxmox in August 2023 on MSI setup, i would use august till i create a new setup somewhere down the line. In short the last timeframe which is listed is the start point to current day.
+
+August -> Till current (MSI is the only setup i am working on) 
+
 ### What? 
 
 > What exactly are rules for naming?
