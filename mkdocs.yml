@@ -70,18 +70,20 @@ nav:
       - Owned Devices:
         - Apple: 
           - Iphone:
-            - Iphone-6s: 
-              - August-2023:
-                - Production: "Developement-Setup/Owned-Devices/Apple/Iphone/6s/2023/August/Production.md"
-              - September-2023:
-                - Production: "Developement-Setup/Owned-Devices/Apple/Iphone/6s/2023/September/Production.md"
+            - Iphone-6s:
+              - 2023:
+                - August:
+                  - Production: "Developement-Setup/Owned-Devices/Apple/Iphone/6s/2023/August/Production.md"
+                - September-Present:
+                  - Production: "Developement-Setup/Owned-Devices/Apple/Iphone/6s/2023/September/Production.md"
         - Android:
           - OnePlus: 
             - Kebab: 
                 - Production: 
-                  - July-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/July/production.md"
-                  - August-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md"
-                  - September-2023: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/September/production.md"
+                  - 2023:
+                    - July-August: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/July/production.md"
+                    - August-September: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md"
+                    - September-Present: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/September/production.md"
                 - Testing: 
                   - Fresh-Device : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/fresh-device.md"
                   - Evolution-X : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/evolution-x.md"
@@ -89,31 +91,35 @@ nav:
                   - Lineage-OS : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/lineage-os.md"
         - Laptops:
           - Dell:
-            - June-2023:
-              - Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell/2023/June/Dell-Latitude-E6420.md"
+            - 2023:
+              - June:
+                - Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell/2023/June/Dell-Latitude-E6420.md"
           - MSI:
-            - August-2023: 
-              - GF63-Thin: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
-              - Micron: 
-                - Windows-11: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Windows-11.md" 
-                - Manjaro: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"
-              - Crucial:
-                - Proxmox: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Proxmox.md" 
+            - 2023:
+              - August-Present: 
+                - GF63-Thin: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
+                - Micron: 
+                  - Windows-11: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Windows-11.md" 
+                  - Manjaro: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"
+                - Crucial:
+                  - Proxmox: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Proxmox.md" 
       - Team Devices: 
         #- Android
         - Desktops:
           - Vina: 
-            - July-2023: 
-              - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Installation.md"
-              - Post-Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Post-Installation.md"
-            - September-2023: 
-              - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/September/Installation.md"
+            - 2023:
+              - July-September:
+                - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Installation.md"
+                - Post-Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/July/Post-Installation.md"
+              - September-Present: 
+                - Installation: "Developement-Setup/Team-Devices/Desktops/Vina/Production/September/Installation.md"
         - Laptops:
           - Apple:
             - MacBook-Air:
               - M2-13-inch:
-                - September-2023:
-                  - Production: "Developement-Setup/Team-Devices/Laptops/Apple/MacBook-Air/M2-13-inch/2023/September/Production.md"
+                - 2023:
+                  - September-Present:
+                    - Production: "Developement-Setup/Team-Devices/Laptops/Apple/MacBook-Air/M2-13-inch/2023/September/Production.md"
       - Guest Devices:
         - Laptops:
           - HP-Pavilion-Convertable-360: "Developement-Setup/Guest-Devices/Laptops/HP-Pavilion-360-Convertable.md"
