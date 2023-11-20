@@ -4,7 +4,9 @@
 1. vim 
 2. paru
 3. tree
-4. intel-media-driver 
+4. intel-media-driver
+5. digikam
+6. veracrypt
 
 ## Paru packages
 
@@ -14,9 +16,12 @@
 4. droidcam
 5. droidcam-obs-plugin
 6. v4l2loopback-dc
+7. parsec-bin
+8. anki
 
 
 ## Setup
+
 
 ### Droidcam
 
