@@ -10,8 +10,8 @@ We assigned 2 ip address to 2 ethernet adapters.
 
 ##### 10.X.X.X.1 - Airtel Xtreme Router
 
-- USB Ethernet adapter - 10.X.X.X.3
-- Laptop Ethernet NIC -  10.X.X.X.2  
+- USB Ethernet adapter - 10.X.X.X.3  (vmbr1)
+- Laptop Ethernet NIC -  10.X.X.X.2  (vmbr0)
  
  
 #### 11.X.X.X.1 (PFSENSE)
@@ -84,5 +84,8 @@ curl -sSL <https://install.pi-hole.net> | bash
 4. autostart=true
 
 ## Proxmox Virtual Machines
+
+### pfsense
+
 
 
