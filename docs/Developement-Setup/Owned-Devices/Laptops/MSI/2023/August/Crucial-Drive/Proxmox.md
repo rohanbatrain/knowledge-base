@@ -2,12 +2,30 @@
 
 Fresh Installation and setup.
 
-### Networking
+### Networking 
+
+We assigned 2 ip address to 2 ethernet adapters. 
+
+#### 10.X.X.X.1 - Airtel Xtreme Router
+
+USB Ethernet adapter - 10.X.X.X.3
+Laptop Ethernet NIC -  10.X.X.X.2  
+ 
+ 
+#### 11.X.X.X.1 (PFSENSE)
+
+
+
+
+#### Obsolete (as of Nov-2023)
+
 We have used our github script to install proxmox and post install. then there arose a hurdle that i need to have atleast two network interfaces to install pfsense, but the recommended one was 3, that you have 2 for pfsense and one is left for proxmox management. So creating the first and second virtual bridge was easy but problems were faced when i used a usb based wifi device for my 3rd interface, that theoretically should pop up automatically on proxmox network TAB on host, but it didn't, it was detected with `lsusb` and further i also requested an ip by connecting that wifi using iwctl, but still no sign of it on proxmox dashboard. Thus i directly gone intor /etc/network/interfaces and copied the above syntax and manually added the entry and restarted my proxmox and it worked.
 
 But we dropped installing pfsense on laptop hardware as it in not ideal to run a router lan port on an Access point. Shifted to pihole for internal dns. 
 
-### Cluster
+
+
+### Cluster (not in production anymore)
 
 When we dropped the idea of installing pfsense we decided to try out pve-cluster, we tried creating a cluster with our two pve nodes but turns out that the cluster required no vm to be created on each of the instance which would join the cluster so i reinstalled cluster on both instances. Moving on when i joined the proxmox cluster things started to go downhill, we weren't known to the fact that we need both of the nodes running at the same time although that's what a cluster is for (intended to be used on a datacenter) but i thought we would loadbalance pihole etc. but that wasn't the case as we have to boot simuntaneously otherwise our login server of the proxmox ve wouldn't work aswell. we cannot create, start or literally do anything proxmox if the other node is offline. 
 
