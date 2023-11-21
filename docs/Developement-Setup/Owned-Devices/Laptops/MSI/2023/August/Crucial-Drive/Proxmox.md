@@ -4,9 +4,11 @@ Fresh Installation and setup.
 
 ### Networking 
 
+#### Production 
+
 We assigned 2 ip address to 2 ethernet adapters. 
 
-#### 10.X.X.X.1 - Airtel Xtreme Router
+##### 10.X.X.X.1 - Airtel Xtreme Router
 
 USB Ethernet adapter - 10.X.X.X.3
 Laptop Ethernet NIC -  10.X.X.X.2  
