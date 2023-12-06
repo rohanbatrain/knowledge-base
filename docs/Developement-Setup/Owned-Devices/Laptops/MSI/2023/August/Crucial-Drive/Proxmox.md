@@ -72,6 +72,8 @@ curl -sSL <https://install.pi-hole.net> | bash
 
 ## Proxmox Virtual Machines
 
+Before proceeding any further, we need to follow thi [link](https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/) in order to passthrough pcie devices
+
 ### pfsense
 
 We have followed the following blog "pfsense with proxmox" from official site.
