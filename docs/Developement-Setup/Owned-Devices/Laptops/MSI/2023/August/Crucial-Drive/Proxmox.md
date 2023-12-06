@@ -95,11 +95,11 @@ Firewall : unticked
 #### Post creation
 Add a second vmbr1 to your pfsense vm. virtio paravirtualized
 
-### Installation on vm
+#### Installation on vm
 
 Typical normal installation.
 
-### Configuration
+#### Configuration
 
 Auto fetch ip on wan from dhcp, go into your router and set a static ip.
 Lan = 11.x.x.1 
