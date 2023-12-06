@@ -74,6 +74,12 @@ curl -sSL <https://install.pi-hole.net> | bash
 
 Before proceeding any further, we need to follow thi [link](https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/) in order to passthrough pcie devices
 
+### Issues
+
+1. update-grub command not found [link](https://askubuntu.com/questions/418666/update-grub-command-not-found)
+2. 
+
+
 ### pfsense
 
 We have followed the following blog "pfsense with proxmox" from official site.
