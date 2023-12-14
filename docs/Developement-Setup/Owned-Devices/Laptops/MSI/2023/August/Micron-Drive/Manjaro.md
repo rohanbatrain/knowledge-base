@@ -19,9 +19,18 @@
 7. parsec-bin
 8. anki
 
+## Suggested packages
+
+These are the packages my team mate installed to debug/solve a problem,
+
+1. bluez-utils
+
 
 ## Setup
 
+### File management
+
+Here i would leave notes on how i manage my home directory and their subsequent sub directories.
 
 ### Droidcam
 
