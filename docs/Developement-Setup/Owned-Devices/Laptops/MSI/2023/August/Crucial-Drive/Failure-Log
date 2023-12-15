@@ -20,3 +20,14 @@ When we dropped the idea of installing pfsense we decided to try out pve-cluster
 As per my experience this should occur when there are only 2 nodes in a cluster. So we are reverting back and removing cluster with the scripts provided on the application
 
 
+## December 2023 
+
+### IOMMU 
+
+I couldn't pass through PCIe devices initially. I attempted to find documentation, which directed me to modify some GRUB flags. After making the changes, however, the issue persisted. Since I was booting with Manjaro's GRUB, I believed adjusting settings there might resolve the problem. Later, I realized this wasn't the case, as such modifications would blacklist Nvidia, resulting in no display.
+
+Upon further investigation, I discovered that my system had an Intel UHD graphics card and an Nvidia RTX 3050 as the 3D controller. Reassured by this, I checked the BIOS for VT-d emulation, confirming it was set to true (1). I then changed the BIOS priority to Crucial, where GRUB for Proxmox was located. Despite these efforts, the problem persisted. Exhausting online guides from the first and second pages of Google, I reached a point of frustration.
+
+As a last resort, I entered root to explore potential missing commands on the shell. Strangely, I noticed that some commands were absent in the shell but present in the noVNC console under the same root. Intuitively, I decided to run a single command: apt dist-upgrade. This action, surprisingly, provided the missing commands, including update-grub. A pop-up indicated that GRUB2 would replace legacy GRUB, explaining why my IOMMU wasn't functioning initially.
+
+After the upgrade, everything worked flawlessly.
