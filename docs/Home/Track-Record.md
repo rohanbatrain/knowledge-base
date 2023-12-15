@@ -70,5 +70,16 @@ This was my production setup for the July month. You can view that [here](../Dev
 
 Yes, finally college routine is in action. Now we have a room (P.G.) in which we are going to do all server related stuff for perhaps the next 4 years or so. My setup walkthrough will be linked here accordingly once it's ready.
 
+### September-November 
+
+College and other stuff made me forgot what i did and wasn't able to document the changes. 
+
+### December 
+
+We shifted to a 2-BHK flat on a contract till May 2024. Now we have a proper studio/study room. 
+
+- We successfully implemented pfsense plus we got a tenda router which has a wan port, which theoretically mean we can have an AP for pfsense aswell. So its awesome. 
+
+
 
 [^1]: In kali nethunter, I learned how to brick my phone, and thus end up learning about edl and qualcom flashing of factory firmware using msm
