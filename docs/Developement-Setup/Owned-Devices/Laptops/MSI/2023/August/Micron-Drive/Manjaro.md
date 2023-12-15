@@ -69,3 +69,8 @@ Removing the following packages in order to fix it
 ```bash
 sudo pacman -R linux61-headers droidcam
 ```
+
+
+# Migrating
+
+I am searching a new primary linux distribution as manjaro has a lot of kernel issues that i am facing, v412loopback doesnt work which lead to obs virtual cam, droidcam and other very crucial things to not work. 
