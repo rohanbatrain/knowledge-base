@@ -82,4 +82,4 @@ We shifted to a 2-BHK flat on a contract till May 2024. Now we have a proper stu
 
 
 
-[^1]: In kali nethunter, I learned how to brick my phone, and thus end up learning about edl and qualcom flashing of factory firmware using msm
+[^1]: In kali nethunter, I learned how to brick my phone, and thus end up learning about edl and qualcom flashing of factory firmware using msm.
