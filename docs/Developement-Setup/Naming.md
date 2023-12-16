@@ -1,21 +1,47 @@
-# Naming?
+# Device Naming Convention
 
-In this document you will find all of our device name as per our naming scheme. irrespective of ownership.
-
+This document outlines our device naming scheme, regardless of ownership.
 
 ## Desktops
 
+### Harshdeep
+
+| Name  | Device           | IP Address  | MAC Address       |
+|-------|------------------|-------------|-------------------|
+| Vina  | Harshdeep's PC   |             |                   |
 
 ## Laptops
 
+### Rohan
 
-## Androids
+| Name  | Device             | IP Address    | MAC Address       |
+|-------|--------------------|---------------|-------------------|
+| Sitar | MSI GF63-Thin      |               |                   |
 
+### Harshdeep
 
-## Iphones
+| Name  | Device                   | IP Address    | MAC Address       |
+|-------|--------------------------|---------------|-------------------|
+|       | Apple MacBook Air M2     |               |                   |
 
+## Smartphones
+
+### Rohan
+
+| Name  | Device      | IP Address    | MAC Address       |
+|-------|-------------|---------------|-------------------|
+|       | OnePlus 8t  |               |                   |
+
+## iPhones
+
+### Rohan
+
+| Name  | Device      | IP Address    | MAC Address       |
+|-------|-------------|---------------|-------------------|
+|       | iPhone 6s   |               |                   |
 
 ## Routers
 
-
-
+| Name            | Device          | IP Address    | MAC Address       |
+|-----------------|-----------------|---------------|-------------------|
+|                 | Airtel-Extreme       |               |                   |
