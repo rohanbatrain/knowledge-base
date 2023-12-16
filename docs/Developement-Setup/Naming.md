@@ -44,4 +44,5 @@ This document outlines our device naming scheme, regardless of ownership.
 
 | Name            | Device          | IP Address    | MAC Address       |
 |-----------------|-----------------|---------------|-------------------|
-|                 | Airtel-Extreme       |               |                   |
+|       Dhun          | Airtel-Extreme       |               |                   |
+|        Dhvani           | Pfsense         |               |                   |
