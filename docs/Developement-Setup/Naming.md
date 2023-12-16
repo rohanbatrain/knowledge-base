@@ -46,3 +46,6 @@ This document outlines our device naming scheme, regardless of ownership.
 |-----------------|-----------------|---------------|-------------------|
 |       Dhun          | Airtel-Extreme       |               |                   |
 |        Dhvani           | Pfsense         |               |                   |
+
+
+# Virtual Machine Naming Convention
