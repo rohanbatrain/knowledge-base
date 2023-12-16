@@ -38,7 +38,7 @@ This document outlines our device naming scheme, regardless of ownership.
 
 | Name  | Device      | IP Address    | MAC Address       |
 |-------|-------------|---------------|-------------------|
-|       | iPhone 6s   |               |                   |
+|   Rohan Batra's Iphone [^1]    | iPhone 6s   |               |                   |
 
 ## Routers
 
@@ -49,3 +49,6 @@ This document outlines our device naming scheme, regardless of ownership.
 
 
 # Virtual Machine Naming Convention
+
+
+[^1]: Iphone doesn't have a generic device name, as usual apple decided that we need to name i-devices based on usernames.As usual apple things, due to these very reasons we are just keeping apple ecosystem as minimally integrated as possible.  
