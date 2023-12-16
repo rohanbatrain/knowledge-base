@@ -36,7 +36,7 @@ Email: vina-pve@xxxx.xx
 ```yaml
 Management Interface: enp34s0 
 Hostname (FQDN): vina-pve.xxxx.in
-IP Address (CIDR): 10.0.0.xx/24
-Gateway: 10.0.0.1
+IP Address (CIDR): 10.xx.xx.xx/24
+Gateway: 10.xx.xx.c
 DNS Server: 1.1.1.1
 ```
