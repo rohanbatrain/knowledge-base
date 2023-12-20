@@ -2,6 +2,16 @@
 
 This document outlines our device naming scheme, regardless of ownership.
 
+
+## Rules 
+
+For Personal Computer, we are using string instruments name.
+
+For mobile devices, we are using flute instruments
+
+For router we are using names which power all these instruments like dhun, dhwani. etc
+
+
 ## Desktops
 
 ### Harshdeep
@@ -11,6 +21,8 @@ This document outlines our device naming scheme, regardless of ownership.
 | Vina  | Harshdeep's PC   |             |                   |
 
 ## Laptops
+
+
 
 ### Rohan
 
