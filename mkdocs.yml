@@ -103,6 +103,10 @@ nav:
                   - Manjaro: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"
                 - Crucial:
                   - Proxmox: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Proxmox.md" 
+            - 2024:
+              - January:
+                - Micron:
+                    - Garuda-Linux : "Developement-Setup/Owned-Devices/Laptops/MSI/2024/January/Micron-Drive/Garuda-Linux.md"
       - Team Devices: 
         #- Android
         - Desktops:
