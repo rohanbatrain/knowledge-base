@@ -30,7 +30,9 @@ These are the packages my team mate installed to debug/solve a problem,
 
 ### File management
 
-Here i would leave notes on how i manage my home directory and their subsequent sub directories.
+Here i would leave notes on how i manage my home directory and their subsequent sub directories. 
+
+update -> testing in garuda linux, as per new migration to our distro of choice. 
 
 ### Droidcam
 
