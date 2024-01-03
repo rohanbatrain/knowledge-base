@@ -18,3 +18,13 @@ Well initially i am still stuck with no grub and no way to boot into any other o
 How?
 
 According to garuda forum, i had to chroot and update the grub using `update-grub` but as usual my life is not simple as that. I had to disable os-prober because it was trying to add an entry of my lxc container from proxmox, which is resulting grub to be stuck on that line forever, adding ubuntu-lts 20.04. So for its prevention i had to disable it. Then i proceeded to updated the system using garuda-update. it has a hell lot of pgp errors so i had to enter 4 lines in order to fix that. You can find those [here](https://raw.githubusercontent.com/rohanbatrain/scripts/main/OS-Specific/Garuda/Post-Installation/00-Post-Install.sh)
+
+
+## Post Installation 
+
+### Copying required directories
+
+I've taken some backups to external storage, restoring those is the first step. 
+
+1. Projects
+
