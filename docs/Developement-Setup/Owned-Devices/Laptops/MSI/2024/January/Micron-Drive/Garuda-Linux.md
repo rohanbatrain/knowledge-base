@@ -1,7 +1,10 @@
 ## Packages
 
+We have chaotic-aur preinstalled, so we don't have to rely on paru etc, as pacman already have the ability to build packages (as per my intuitive understanding) still if i use paru for anything, then that would have a sub heading listed here. 
+
 1. Obs
 2. droidcam
+3. obsidian
 
 ## Thoughts on migration
 
@@ -28,3 +31,4 @@ I've taken some backups to external storage, restoring those is the first step.
 
 1. Projects
 
+### 
