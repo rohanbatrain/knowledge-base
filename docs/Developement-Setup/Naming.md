@@ -34,15 +34,22 @@ For router we are using names which power all these instruments like dhun, dhwan
 
 | Name  | Device                   | IP Address    | MAC Address       |
 |-------|--------------------------|---------------|-------------------|
-|       | Apple MacBook Air M2     |               |                   |
+|    Ektara   | Apple MacBook Air M2     |               |                   |
 
 ## Smartphones
+
+### Harshdeep
+
+| Name  | Device                   | IP Address    | MAC Address       |
+|-------|--------------------------|---------------|-------------------|
+|    Shankh   | Poco x3 pro    |               |                   |
+
 
 ### Rohan
 
 | Name  | Device      | IP Address    | MAC Address       |
 |-------|-------------|---------------|-------------------|
-|       | OnePlus 8t  |               |                   |
+|   Murli    | OnePlus 8t  |               |                   |
 
 ## iPhones
 
@@ -57,10 +64,14 @@ For router we are using names which power all these instruments like dhun, dhwan
 | Name            | Device          | IP Address    | MAC Address       |
 |-----------------|-----------------|---------------|-------------------|
 |       Dhun          | Airtel-Extreme       |               |                   |
-|        Dhvani           | Pfsense         |               |                   |
+|       Dhvani        | Pfsense              |               |                   |
 
 
 # Virtual Machine Naming Convention
+
+
+
+
 
 
 [^1]: Iphone doesn't have a generic device name, as usual apple decided that we need to name i-devices based on usernames.As usual apple things, due to these very reasons we are just keeping apple ecosystem as minimally integrated as possible.  
