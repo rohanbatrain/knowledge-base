@@ -67,6 +67,7 @@ nav:
   - Developement-Setup:
       - Introduction: "Developement-Setup/Introduction.md"
       - Device-Names: "Developement-Setup/Naming.md"
+      - IP-Allocation: "Developement-Setup/IP-Allocation.md"
       - Owned Devices:
         - Apple: 
           - Iphone:
