@@ -108,7 +108,7 @@ nav:
                     - Virtualization : 
                       - Containers: 
                         - Pihole : "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Containers/Pihole.md"
-                      - Virtual-Machines:
+                      - VMs:
                         - PFSense: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Virtual-Machines/PFsense.md"
                     - Failure-Log: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Failure-Log.md"
             - 2024:
