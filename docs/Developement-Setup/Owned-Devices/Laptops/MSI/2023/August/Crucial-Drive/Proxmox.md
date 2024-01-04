@@ -38,37 +38,10 @@ I've logged in using my firefox account. I have successfully synced my firefox d
 
 ## Proxmox-Containers
 
-### Pihole 
+This is the list of containers that we are running.
 
-We used proxmox lxc ubuntu 23.04 template and on top of it installed pihole. 
+- [pihole](./Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Containers/Pihole.md)
 
-
-The steps of creating CT was:
-
-```yaml
-hostname: pihole
-disk size: 4
-Cores: 1
-Memory: 1024
-swap: 1024
-ipv4: static
-ipv6: dhcp request
-dns domain: pihole.vina.xxxx.xx.x
-dns-server: 1.1.1.1
-```
-
-
-#### Installing
-
-1. update the system and install curl
-2. go to pihole documentation or directly enter a controversial bash snippet w/o verifying :lol:
-
-```bash
-curl -sSL <https://install.pi-hole.net> | bash
-```
-
-3. give a static ip to pihole container.
-4. autostart=true
 
 ## Proxmox Virtual Machines
 
@@ -81,41 +54,3 @@ see [IOMMU](./Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-D
 
 
 
-
-### pfsense
-
-We have followed the following blog "pfsense with proxmox" from official site.
-
-#### VM Creation
-
-Pretty straight forward setup same which is followed for a freebsd based system. 
-
-Graphic Card : Spice 
-SCSI Controller : Virtio SCSI single 
-Bus/Device : Virtio Block
-Disk size : 10g
-socket : 1 
-core : 1
-type : host
-memory : 2048
-network-model : Virtio paravirtualized
-Firewall : unticked
-
-
-#### Post creation
-Add a second vmbr1 to your pfsense vm. virtio paravirtualized
-
-#### Installation on vm
-
-Typical normal installation.
-
-#### Configuration
-
-Auto fetch ip on wan from dhcp, go into your router and set a static ip.
-Lan = 11.x.x.1 
-
-In order to setup my interfaces i have gone into vmbr and ticked the disconnect option in order to virtually disconnect the bridge. Then gone into pfsense to autodetect the interface again (reconnect when prompted to do so) in order to give it a static lan and wan ip. 
-
-DHCP is enabled on lan in order to give out ip using vmbr1, so if you have a vm with 2 bridges they are going to receive to links
-
-10.x.x.c and a backup 11.x.x.c 
