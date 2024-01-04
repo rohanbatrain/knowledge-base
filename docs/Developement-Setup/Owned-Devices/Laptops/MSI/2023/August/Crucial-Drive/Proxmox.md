@@ -40,7 +40,7 @@ I've logged in using my firefox account. I have successfully synced my firefox d
 
 This is the list of containers that we are running.
 
-- [pihole](/Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Containers/Pihole.md)
+- [pihole](./Promox/Containers/Pihole.md)
 
 
 ## Proxmox Virtual Machines
@@ -50,7 +50,7 @@ Before proceeding any further, we need to follow thi [link](https://www.reddit.c
 ### Issues
 
 1. update-grub for iommu ~~command not found [link](https://askubuntu.com/questions/418666/update-grub-command-not-found) turns out grub is installed on manjaro. trying to do same setting on manjaro and seeing if it works.~~
-see [IOMMU](/Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Failure-Log.md)
+see [IOMMU](./Failure-Log.md)
 
 
 
