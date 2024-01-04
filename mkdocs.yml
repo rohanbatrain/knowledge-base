@@ -82,9 +82,10 @@ nav:
             - Kebab: 
                 - Production: 
                   - 2023:
-                    - July-August: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/July/production.md"
-                    - August-September: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md"
                     - September-Present: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/September/production.md"
+                    - August-September: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/August/production.md"
+                    - July-August: "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Production/2023/July/production.md"
+        
                 - Testing: 
                   - Fresh-Device : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/fresh-device.md"
                   - Evolution-X : "Developement-Setup/Owned-Devices/Android/One-Plus/Kebab/Testing/evolution-x.md"
@@ -101,7 +102,7 @@ nav:
                 - GF63-Thin: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
                 - Micron: 
                   - Windows-11: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Windows-11.md" 
-                  - Manjaro: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"
+                  - Manjaro (EOL): "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Manjaro.md"
                 - Crucial:
                   - Proxmox: 
                     - Installation: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Proxmox.md" 
