@@ -6,7 +6,7 @@ We have followed the following blog "pfsense with proxmox" from official site.
 
 Pretty straight forward setup same which is followed for a freebsd based system. 
 
-```
+```yaml
 Graphic Card : Spice 
 SCSI Controller : Virtio SCSI single 
 Bus/Device : Virtio Block
@@ -36,4 +36,7 @@ In order to setup my interfaces i have gone into vmbr and ticked the disconnect 
 
 DHCP is enabled on lan in order to give out ip using vmbr1, so if you have a vm with 2 bridges they are going to receive two up-links (assuming wan is active on pfsense)
 
-`10.x.y.z.a` and a backup `11.x.y.z.a`
+```yaml
+uplink-1 : 10.x.y.z.a
+uplink-2 : 11.x.y.z.a
+```
