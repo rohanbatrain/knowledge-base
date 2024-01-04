@@ -77,7 +77,7 @@ Before proceeding any further, we need to follow thi [link](https://www.reddit.c
 ### Issues
 
 1. update-grub for iommu ~command not found [link](https://askubuntu.com/questions/418666/update-grub-command-not-found) turns out grub is installed on manjaro. trying to do same setting on manjaro and seeing if it works.~ 
-see [IOMMU](Failure-Log###IOMMU)
+see [IOMMU](Failure-Log)
 
 
 
