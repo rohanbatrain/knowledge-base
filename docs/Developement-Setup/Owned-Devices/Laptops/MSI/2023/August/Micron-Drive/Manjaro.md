@@ -4,7 +4,7 @@ I am searching a new primary linux distribution as manjaro has a lot of kernel i
 
 
 ## Rohan From the future
-Migration is done to [garuda](../../2024/January/Micron-Drive)
+Migration is done to [garuda](../../../2024/January/Micron-Drive)
 
 
 ## Packages Installed
