@@ -5,7 +5,7 @@
 
 
 
-### Obsolete (as of Nov-2023)
+#### Obsolete (as of Nov-2023)
 
 We have used our github script to install proxmox and post install. then there arose a hurdle that i need to have atleast two network interfaces to install pfsense, but the recommended one was 3, that you have 2 for pfsense and one is left for proxmox management. So creating the first and second virtual bridge was easy but problems were faced when i used a usb based wifi device for my 3rd interface, that theoretically should pop up automatically on proxmox network TAB on host, but it didn't, it was detected with `lsusb` and further i also requested an ip by connecting that wifi using iwctl, but still no sign of it on proxmox dashboard. Thus i directly gone intor /etc/network/interfaces and copied the above syntax and manually added the entry and restarted my proxmox and it worked.
 
