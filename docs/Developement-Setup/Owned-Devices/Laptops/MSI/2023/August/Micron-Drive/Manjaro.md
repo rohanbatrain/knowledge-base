@@ -1,3 +1,11 @@
+# Migrating
+
+I am searching a new primary linux distribution as manjaro has a lot of kernel issues that i am facing, v412loopback doesnt work which lead to obs virtual cam, droidcam and other very crucial things to not work. 
+
+
+## Rohan From the future
+Migration is done to [garuda](Developement-Setup/Owned-Devices/Laptops/MSI/2024/January/Micron-Drive)
+
 
 ## Packages Installed
 
@@ -73,6 +81,4 @@ sudo pacman -R linux61-headers droidcam
 ```
 
 
-# Migrating
 
-I am searching a new primary linux distribution as manjaro has a lot of kernel issues that i am facing, v412loopback doesnt work which lead to obs virtual cam, droidcam and other very crucial things to not work. 
