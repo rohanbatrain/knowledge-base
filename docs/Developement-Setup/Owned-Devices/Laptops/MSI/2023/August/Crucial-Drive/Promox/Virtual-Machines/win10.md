@@ -2,6 +2,8 @@
 
 This windows installation is focused on developement and other work related tasks. 
 
+name: win10.sitar-pve
+
 ### VM Creation
 
 ```yaml
