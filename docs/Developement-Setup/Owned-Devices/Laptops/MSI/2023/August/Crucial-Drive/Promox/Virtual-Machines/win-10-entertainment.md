@@ -1,6 +1,6 @@
 ## Windows 10 Entertainment 
 
-This windows installation is focused on low spec gaming (no gpu passthrough, my particular laptop has support for iommu but the issue is my nvidia is used for 3d, and my display is driven by intel uhd. So when i passthrough both windows give me a sweet screen of bsod and there is absolutely no display on my laptop or external monitor. so in short i have no opengl support. I am going to try use nvidia to game but no idea if that's going to work as an encoder stand alone.) etc. 
+This windows installation is focused on testing of sketchy softwares or to do low spec gaming  (no gpu passthrough, my particular laptop has support for iommu but the issue is my nvidia is used for 3d, and my display is driven by intel uhd. So when i passthrough both windows give me a sweet screen of bsod and there is absolutely no display on my laptop or external monitor. so in short i have no opengl support. I am going to try use nvidia to game but no idea if that's going to work as an encoder stand alone.) etc. 
 
 ### VM Creation
 
