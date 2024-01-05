@@ -42,3 +42,10 @@ Adding custom adlist
 |--------|------------------|
 | [DeveloperDan](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) | [lightswitch05/hosts](https://github.com/lightswitch05/hosts) |
 
+Now in order to sync run the command given below.
+
+```bash
+pihole -g 
+```
+
+
