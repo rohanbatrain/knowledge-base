@@ -35,7 +35,9 @@ The first thing that i ran is CTT Windows Utility.
 iwr -useb https://christitus.com/win | iex
 ```
 
-You can use the following to create a config file for CTT 
+You can use the following to create a config files for CTT
+
+#### Config 1 : App installation
 
 ```json
 [
@@ -67,5 +69,12 @@ You can use the following to create a config file for CTT
     "Bitwarden.Bitwarden",
     "Postman.Postman"
 ]
+
+```
+
+
+#### Config 2 : Tweaks
+
+```json
 
 ```
