@@ -29,8 +29,43 @@ hostpci0: 0000:00:1f
 
 ### Configuration
 
+The first thing that i ran is CTT Windows Utility.
+
 ```ps
 iwr -useb https://christitus.com/win | iex
 ```
 
+You can use the following to create a config file for CTT 
 
+```json
+[
+    "Rustlang.Rust.MSVC",
+    "Python.Python.3.12",
+    "Microsoft.DotNet.DesktopRuntime.5",
+    "KDE.KDEConnect",
+    "WinSCP.WinSCP",
+    "7zip.7zip",
+    "Nextcloud.NextcloudDesktop",
+    "Obsidian.Obsidian",
+    "Microsoft.DotNet.DesktopRuntime.3_1",
+    "Alacritty.Alacritty",
+    "OpenJS.NodeJS.LTS",
+    "Neovim.Neovim",
+    "OBSProject.OBSStudio",
+    "DigitalScholar.Zotero",
+    "na",
+    "Mozilla.Firefox",
+    "Git.Git",
+    "Anki.Anki",
+    "Brave.Brave",
+    "VideoLAN.VLC",
+    "Microsoft.VCRedist.2015+.x64",
+    "VSCodium.VSCodium",
+    "GitHub.GitHubDesktop",
+    "GitExtensionsTeam.GitExtensions",
+    "Docker.DockerDesktop",
+    "Bitwarden.Bitwarden",
+    "Postman.Postman"
+]
+
+```
