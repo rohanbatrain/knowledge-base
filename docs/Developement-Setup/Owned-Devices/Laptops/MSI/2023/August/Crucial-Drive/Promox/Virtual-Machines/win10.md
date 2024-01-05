@@ -76,5 +76,22 @@ You can use the following to create a config files for CTT
 #### Config 2 : Tweaks
 
 ```json
+[
+    "WPFMiscTweaksDisableNotifications",
+    "WPFEssTweaksTele",
+    "WPFEssTweaksHiber",
+    "WPFMiscTweaksDisableUAC",
+    "WPFEssTweaksServices",
+    "WPFEssTweaksDVR",
+    "WPFEssTweaksLoc",
+    "WPFEssTweaksRemoveOnedrive",
+    "WPFEssTweaksWifi",
+    "WPFMiscTweaksDisplay",
+    "WPFEssTweaksHome",
+    "WPFEssTweaksStorage",
+    "WPFEssTweaksAH",
+    "WPFEssTweaksOO",
+    "WPFEssTweaksTeredo"
+]
 
 ```
