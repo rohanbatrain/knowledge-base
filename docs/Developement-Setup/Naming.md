@@ -144,4 +144,4 @@ For router we are using names which power all these instruments like dhun, dhwan
 
 
 
-[^1]: Iphone doesn't have a generic device name, as usual apple decided that we need to name i-devices based on usernames.As usual apple things, due to these very reasons we are just keeping apple ecosystem as minimally integrated as possible.  
+[^1]: Iphone doesn't have a generic device name, as usual apple decided that we need to name i-devices based on usernames instead of hostnames. As usual apple things, due to these very reasons we are just keeping apple ecosystem as minimally integrated as possible.  
