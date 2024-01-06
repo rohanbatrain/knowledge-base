@@ -120,7 +120,7 @@ For router we are using names which power all these instruments like dhun, dhwan
 - Example: "testcontainer" (where hostname is testcontainer).
 
 ##### **CID Range:**
-- CID for test
+- CID for test  containers should start from 600 and go up to 700.
 
 
 ## Naming of
