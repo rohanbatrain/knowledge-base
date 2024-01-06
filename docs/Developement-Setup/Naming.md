@@ -77,23 +77,21 @@ For router we are using names which power all these instruments like dhun, dhwan
 
 1. **VM Name:**
    - The VM name should be formatted as "HOSTNAME".
-   - Example: "webserver" (where hostname is webserver).
+     - Example: "webserver" (where hostname is webserver).
 
 2. **VID Range:**
    - VID for production VMs should start from 200 and go up to 300.
 
 ##### Example:
-  - If the hostname is "win10", the VM name would be "win10". The VM displayed in the Proxmox dashboard is using this format "VID (HOSTNAME)".
+   - If the hostname is "win10", the VM name would be "win10". The VM displayed in the Proxmox dashboard is using this format "VID (HOSTNAME)".
 
-![image](https://github.com/rohanbatrain/knowledge-base/assets/116573125/980bf30a-1f0c-4baf-bbca-ca7755ba4b3f)
-
-
+![VM Example](https://github.com/rohanbatrain/knowledge-base/assets/116573125/980bf30a-1f0c-4baf-bbca-ca7755ba4b3f)
 
 #### Testing
 
 1. **VM Name:**
    - The VM name for testing purposes should also be formatted as "HOSTNAME".
-   - Example: "testvm" (where hostname is testvm).
+     - Example: "testvm" (where hostname is testvm).
 
 2. **VID Range:**
    - VID for testing VMs should start from 700 and go up to 800.
@@ -107,28 +105,25 @@ For router we are using names which power all these instruments like dhun, dhwan
 
 1. **Container Name:**
    - The container name should be formatted as "HOSTNAME".
-   - Example: "webserver" (where hostname is webserver).
+     - Example: "webserver" (where hostname is webserver).
 
 2. **CID Range:**
    - CID for production containers should start from 200 and go up to 300.
 
 ##### Example:
-  - If the hostname is "webapp", the container name would be "webapp". The container displayed in the management console is using this format "CID (HOSTNAME)".
-
+   - If the hostname is "webapp", the container name would be "webapp". The container displayed in the management console is using this format "CID (HOSTNAME)".
 
 #### Testing
 
 1. **Container Name:**
    - The container name for testing purposes should also be formatted as "HOSTNAME".
-   - Example: "testcontainer" (where hostname is testcontainer).
+     - Example: "testcontainer" (where hostname is testcontainer).
 
 2. **CID Range:**
    - CID for testing containers should start from 700 and go up to 800.
 
 ##### Example:
    - If the hostname is "testapp", the container name would be "testapp". The container displayed in the management console is using this format "CID (HOSTNAME)".
-
-
 
 ## Naming of
 
