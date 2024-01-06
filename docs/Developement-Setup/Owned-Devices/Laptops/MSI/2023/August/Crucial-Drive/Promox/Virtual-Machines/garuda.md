@@ -29,3 +29,11 @@ Disable secure boot in uefi.
 ### Post-Install
 
 garuda-update using its assistant.
+
+
+#### Packages 
+
+1. obsidian
+2. obs-studio
+3. vscodium
+
