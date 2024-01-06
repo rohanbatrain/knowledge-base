@@ -1,5 +1,7 @@
 ## Garuda
 
+### VM Config
+
 ```yaml
 agent: 1
 balloon: 0
@@ -20,3 +22,10 @@ scsihw: virtio-scsi-pci
 sockets: 1
 
 ```
+
+Disable secure boot in uefi.
+
+
+### Post-Install
+
+garuda-update using its assistant.
