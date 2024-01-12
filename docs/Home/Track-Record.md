@@ -100,4 +100,4 @@ I am not including the maintenance of this knowledge base as a track record beca
 
 
 [^1]: In kali nethunter, I learned how to brick my phone, and thus end up learning about edl and qualcom flashing of factory firmware using msm.
-[^2]: P.S. This knowledge base is not error proof, it contains my way of doing things and  
+[^2]: P.S. This knowledge base is not error proof, it contains my way of doing things and a mix of my opinions.
