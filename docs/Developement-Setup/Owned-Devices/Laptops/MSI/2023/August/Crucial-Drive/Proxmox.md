@@ -2,6 +2,13 @@
 
 Fresh Installation and setup.
 
+### Packages
+
+#### Appimages
+
+- Obsidian
+
+
 ### Proxmox Network  
 
 We assigned 2 ip address to 2 ethernet adapters. 
@@ -19,6 +26,7 @@ This is the ip schema for pfsense. DHCP on lan is enabled so all vms which have 
 ### Proxmox Desktop Environment
 
 We already have installed dwm on proxmox now letsss configure it. 
+
 
 #### Firefox Setup
 
