@@ -23,8 +23,8 @@ sockets: 1
 
 ```
 
-Disable secure boot in uefi.
-
+- Disable secure boot in uefi.
+- passing only nvidia gpu
 
 ### Post-Install
 
