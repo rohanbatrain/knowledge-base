@@ -139,7 +139,7 @@ nav:
   - Projects:
       - Introduction: "Documentation/Introduction.md"
       - Personal:
-          - Obsidian: null
+          - Obsidian: ""
           - Second-Brain-Template: "Documentation/Obsidian/Second-Brain-Template.md"
           - Python: 
               - Second-Brain-API: "Documentation/Python/Projects/Second-Brain-API.md"
