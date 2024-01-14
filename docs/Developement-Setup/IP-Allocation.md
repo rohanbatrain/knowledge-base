@@ -17,7 +17,7 @@ IP range : 10.x.y.z.1 to 10.x.y.z.254
 | 10.x.y.z.3    |                   |      pfsense   |
 | 10.x.y.z.4    |                   |    pihole  |
 | 10.x.y.z.5    |                   |     gitea |
-| 10.x.y.z.6    |                   |      |
+| 10.x.y.z.6    |                   |     garuda |
 | 10.x.y.z.7    |                   |      |
 | 10.x.y.z.8    |                   |      |
 | 10.x.y.z.9    |                   |      |
