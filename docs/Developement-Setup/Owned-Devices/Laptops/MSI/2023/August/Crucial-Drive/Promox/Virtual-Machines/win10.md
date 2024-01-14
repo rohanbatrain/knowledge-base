@@ -29,6 +29,10 @@ vga: std
 hostpci0: 0000:00:1f
 ```
 
+Installation
+
+- username : win10
+
 ### Configuration
 
 The first thing that i ran is CTT Windows Utility.
