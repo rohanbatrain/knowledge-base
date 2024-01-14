@@ -11,17 +11,25 @@ Fresh Installation and setup.
 
 ### Proxmox Network  
 
+#### Routing
+
 We assigned 2 ip address to 2 ethernet adapters. 
 
-#### 10.X.X.X.1 - Airtel Xtreme Router
+##### 10.X.X.X.1 - Airtel Xtreme Router
 
 - Laptop Ethernet NIC -  10.X.X.X.2  (vmbr0)
 - USB Ethernet adapter - 10.X.X.X.3  (vmbr1)
 
  
-#### 11.X.X.X.1 (PFSENSE)
+##### 11.X.X.X.1 (PFSENSE)
 
 This is the ip schema for pfsense. DHCP on lan is enabled so all vms which have vmbr1 will be given internet access through NAT and also ip which follows the rule 11.x.x.x 
+
+#### DNS
+
+I am using my pihole as a dns provider.
+
+
 
 ### Proxmox Desktop Environment
 
