@@ -25,6 +25,7 @@ sockets: 1
 
 - Disable secure boot in uefi.
 - passing only nvidia gpu
+- passing vmbr1 for failover network
 
 ### Post-Install
 
