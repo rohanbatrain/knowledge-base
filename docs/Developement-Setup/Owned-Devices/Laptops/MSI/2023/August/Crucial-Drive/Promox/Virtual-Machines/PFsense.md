@@ -28,6 +28,8 @@ Typical normal installation.
 
 ### Configuration
 
+#### Ip allocation
+
 Auto fetch ip on wan from dhcp, go into your router and set a static ip.
 
 `Lan = 11.x.x.1`
@@ -40,3 +42,8 @@ DHCP is enabled on lan in order to give out ip using vmbr1, so if you have a vm 
 uplink-1 : 10.x.y.z.a
 uplink-2 : 11.x.y.z.a
 ```
+
+#### Configuration
+
+- Enabled ssh on pfsense
+  
