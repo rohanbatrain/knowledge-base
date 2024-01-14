@@ -139,8 +139,8 @@ nav:
   - Projects:
       - Introduction: "Documentation/Introduction.md"
       - Personal:
-          - Obsidian: ""
-          - Second-Brain-Template: "Documentation/Obsidian/Second-Brain-Template.md"
+          - Obsidian: 
+            - Second-Brain-Template: "Documentation/Obsidian/Second-Brain-Template.md"
           - Python: 
               - Second-Brain-API: "Documentation/Python/Projects/Second-Brain-API.md"
               - Second-Brain-Tools-2022: "Documentation/Python/Projects/Second-Brain-Tools-2022.md"
