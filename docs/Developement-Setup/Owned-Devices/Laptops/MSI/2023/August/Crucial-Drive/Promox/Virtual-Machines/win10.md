@@ -43,43 +43,7 @@ iwr -useb https://christitus.com/win | iex
 
 You can use the following to create a config files for CTT
 
-#### Config 1 : App installation
-
-```json
-[
-    "Rustlang.Rust.MSVC",
-    "Python.Python.3.12",
-    "Microsoft.DotNet.DesktopRuntime.5",
-    "KDE.KDEConnect",
-    "WinSCP.WinSCP",
-    "7zip.7zip",
-    "Nextcloud.NextcloudDesktop",
-    "Obsidian.Obsidian",
-    "Microsoft.DotNet.DesktopRuntime.3_1",
-    "Alacritty.Alacritty",
-    "OpenJS.NodeJS.LTS",
-    "Neovim.Neovim",
-    "OBSProject.OBSStudio",
-    "DigitalScholar.Zotero",
-    "na",
-    "Mozilla.Firefox",
-    "Git.Git",
-    "Anki.Anki",
-    "Brave.Brave",
-    "VideoLAN.VLC",
-    "Microsoft.VCRedist.2015+.x64",
-    "VSCodium.VSCodium",
-    "GitHub.GitHubDesktop",
-    "GitExtensionsTeam.GitExtensions",
-    "Docker.DockerDesktop",
-    "Bitwarden.Bitwarden",
-    "Postman.Postman"
-]
-
-```
-
-
-#### Config 2 : Tweaks
+#### Config 1 : Tweaks
 
 ```json
 [
