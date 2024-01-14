@@ -17,7 +17,7 @@ meta: creation-qemu=8.1.2,ctime=1704488190
 name: garuda
 numa: 1
 ostype: l26
-scsi0: local-lvm:vm-104-disk-1,discard=on,size=100G
+scsi0: local-lvm:vm-104-disk-1,discard=on,size=200G
 scsihw: virtio-scsi-pci
 sockets: 1
 
