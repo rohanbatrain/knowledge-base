@@ -29,6 +29,8 @@ vga: std
 hostpci0: 0000:00:1f
 ```
 
+Passing a tplink wifi adaptor to vm.
+
 Installation
 
 - username : win10
