@@ -136,16 +136,16 @@ nav:
       - Guest Devices:
         - Laptops:
           - HP-Pavilion-Convertable-360: "Developement-Setup/Guest-Devices/Laptops/HP-Pavilion-360-Convertable.md"
-  - Documentation:
-    - Introduction: "Documentation/Introduction.md"
-    - Obsidian: 
-      - Second-Brain-Template: "Documentation/Obsidian/Second-Brain-Template.md"
-    - Python: 
-      - Projects: 
-        - Second-Brain-API: "Documentation/Python/Projects/Second-Brain-API.md"
-        - Second-Brain-Tools-2022: "Documentation/Python/Projects/Second-Brain-Tools-2022.md"
-      - Tutorials: 
-        - Windows: 
+  - Projects:
+      - Introduction: "Documentation/Introduction.md"
+      - Personal:
+          - Obsidian: 
+            - Second-Brain-Template: "Documentation/Obsidian/Second-Brain-Template.md"
+          - Python: 
+              - Second-Brain-API: "Documentation/Python/Projects/Second-Brain-API.md"
+              - Second-Brain-Tools-2022: "Documentation/Python/Projects/Second-Brain-Tools-2022.md"
+  - Tutorials: 
+      - Windows: 
           - Powershell-Environment: "Documentation/Python/Tutorials/Windows/Powershell-environment.md"
   - SOPs:
     - Introduction: "SOPs/SOPs.md"

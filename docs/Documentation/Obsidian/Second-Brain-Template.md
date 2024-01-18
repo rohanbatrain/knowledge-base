@@ -7,31 +7,14 @@ This is how i used obsidian template for my personalized vault. My vault instanc
 This is what template directory structure looks like:
 
 ```bash
-├.
+.
 ├── Attachments
-│   ├── College
-│   │   └── UPES
-│   │       └── Semester-1
-│   │           ├── Advance-Engineering-Mathematics
-│   │           │   └── placeholder.md
-│   │           ├── Environment-Sustainability-and-Climate-Change
-│   │           │   └── placeholder.md
-│   │           ├── Linux-Lab
-│   │           │   └── placeholder.md
-│   │           ├── Living-Conversations
-│   │           │   └── placeholder.md
-│   │           ├── Problem-Solving
-│   │           │   └── placeholder.md
-│   │           └── Programming-in-C
-│   │               └── placeholder.md
+│   ├── Books
 │   ├── Functions
 │   │   └── placeholder.md
+│   ├── Images
+│   ├── Slides
 │   └── Templates
-│       ├── College
-│       │   ├── KIIT
-│       │   │   └── placeholder.md
-│       │   └── UPES
-│       │       └── Lecture-template.md
 │       ├── Network
 │       │   └── Person.md
 │       └── Periodic-Notes
@@ -39,6 +22,7 @@ This is what template directory structure looks like:
 │           ├── Monthly-Note.md
 │           ├── Quarterly-Note.md
 │           └── Weekly-Note.md
+├── n
 ├── Notes
 │   ├── Archive
 │   │   └── placeholder.md
@@ -134,24 +118,22 @@ This is what template directory structure looks like:
 │   │   │   └── Music
 │   │   │       └── placeholder.md
 │   │   └── Startups
-│   │       ├── Dropshipping
-│   │       │   ├── API-Developement
-│   │       │   │   └── placeholder.md
-│   │       │   └── Website-Developement
-│   │       │       └── placeholder.md
-│   │       └── Startup plan.md
+│   │       └── Dropshipping
+│   │           ├── API-Developement
+│   │           │   └── placeholder.md
+│   │           ├── Non-Profits.md
+│   │           └── Website-Developement
+│   │               └── placeholder.md
 │   ├── Reviews
 │   │   ├── Monthly-Review.md
 │   │   ├── Periodic-Review.md
 │   │   ├── Quaterly-Review.md
 │   │   ├── Weekly-Review.md
 │   │   └── Yearly-Review.md
-│   ├── SOPs
-│   │   └── placeholder.md
-│   └── Tasks
-└── README.md
+│   └── SOPs
+│       └── placeholder.md
 
-79 directories, 64 files
+69 directories, 59 files
 
 ```
 

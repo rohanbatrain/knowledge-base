@@ -81,5 +81,23 @@ We shifted to a 2-BHK flat on a contract till May 2024. Now we have a proper stu
 - We successfully implemented pfsense plus we got a tenda router which has a wan port, which theoretically mean we can have an AP for pfsense aswell. So its awesome. 
 
 
+## 2024
+
+I am not including the maintenance of this knowledge base as a track record because the actual task sometimes takes about 5 minutes to complete, but in order to document it the time investment slows the progress of the project down. I would consider this as my dedicated contribution to make knowledge[^2] open source and free of cost.   
+
+## January
+
+### General
+
+- Migration from manjaro to garuda is done.
+- Updated Second Brain Tools to final release.
+- Deployed IP allocation rules.
+
+### Proxmox 
+
+- 
+
+
 
 [^1]: In kali nethunter, I learned how to brick my phone, and thus end up learning about edl and qualcom flashing of factory firmware using msm.
+[^2]: P.S. This knowledge base is not error proof, it contains my way of doing things and a mix of my opinions.

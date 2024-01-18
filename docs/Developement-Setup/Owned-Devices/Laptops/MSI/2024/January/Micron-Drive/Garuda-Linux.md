@@ -5,6 +5,7 @@ We have chaotic-aur preinstalled, so we don't have to rely on paru etc, as pacma
 1. Obs
 2. droidcam
 3. obsidian
+4. vlc
 
 ## Thoughts on migration
 
