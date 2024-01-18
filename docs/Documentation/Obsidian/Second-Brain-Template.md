@@ -132,9 +132,6 @@ This is what template directory structure looks like:
 │   │   └── Yearly-Review.md
 │   └── SOPs
 │       └── placeholder.md
-├── README.md
-├── xclip
-└── xclipboard
 
 69 directories, 59 files
 
