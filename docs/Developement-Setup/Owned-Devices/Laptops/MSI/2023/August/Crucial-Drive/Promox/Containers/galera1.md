@@ -66,3 +66,33 @@ installation should now be secure.
 
 Thanks for using MariaDB!
 ```
+
+
+```conf
+#
+# * Galera-related settings
+#
+# See the examples of server wsrep.cnf files in /usr/share/mysql
+# and read more at https://mariadb.com/kb/en/galera-cluster/
+
+[galera]
+# Mandatory settings
+wsrep_on                 = ON
+wsrep_cluster_name       = "Sitar-pve Galera Cluster"
+wsrep_cluster_address    = "gcomm://10.x.y.7,10.x.y.8,10.x.y.9"
+binlog_format            = row
+default_storage_engine   = InnoDB
+innodb_autoinc_lock_mode = 2
+
+# Allow server to accept connections on all interfaces.
+bind-address = 0.0.0.0
+
+# Optional settings
+wsrep_slave_threads = 4
+innodb_flush_log_at_trx_commit = 0
+wsrep_node_name = galera-1
+wsrep_node_address = 10.x.y.7 
+
+# Logs
+log_error = /var/log/mysql/galera_1_error.log
+```
