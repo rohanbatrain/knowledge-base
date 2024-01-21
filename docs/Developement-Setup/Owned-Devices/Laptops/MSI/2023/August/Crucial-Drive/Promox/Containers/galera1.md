@@ -68,8 +68,7 @@ Thanks for using MariaDB!
 ```
 
 
-```conf
-#
+```bash
 # * Galera-related settings
 #
 # See the examples of server wsrep.cnf files in /usr/share/mysql
