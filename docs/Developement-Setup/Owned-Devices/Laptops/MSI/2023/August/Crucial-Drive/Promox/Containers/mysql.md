@@ -14,3 +14,7 @@ ipv6: dhcp request
 dns domain: mysql.vina.xxxx.xx.x
 dns-server: 1.1.1.1
 ```
+
+## Installing
+
+1. 
