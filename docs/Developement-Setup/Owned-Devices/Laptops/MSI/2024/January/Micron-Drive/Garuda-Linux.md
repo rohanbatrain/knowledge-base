@@ -33,3 +33,8 @@ I've taken some backups to external storage, restoring those is the first step.
 1. Projects
 
 ### 
+
+
+### Configuration
+
+1. Configuring Git using this [script](https://raw.githubusercontent.com/rohanbatrain/scripts/main/Application-Specific/Git/initial-setup.sh)
