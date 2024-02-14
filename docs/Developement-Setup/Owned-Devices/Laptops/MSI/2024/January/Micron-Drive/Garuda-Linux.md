@@ -49,7 +49,7 @@ sudo blkid | grep "/dev/mapper/pve-root" | awk -F '"' '{print $2}'
 sudo mkdir /mnt/pve-root
 ```
 
-3. updating fstab
+3. updating fstab [todo]
 
 ### Configuration
 
