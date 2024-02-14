@@ -6,6 +6,7 @@ We have chaotic-aur preinstalled, so we don't have to rely on paru etc, as pacma
 2. droidcam
 3. obsidian
 4. vlc
+5. vscodium
 
 ## Thoughts on migration
 
@@ -26,14 +27,29 @@ According to garuda forum, i had to chroot and update the grub using `update-gru
 
 ## Post Installation 
 
-### Copying required directories
+### Copying required directories (Temporary Solution)
 
 I've taken some backups to external storage, restoring those is the first step. 
 
 1. Projects
 
-### 
+### FSTAB Setup
 
+Now the project folder lies in proxmox, so i am symlinking that to my own garuda documents, for that i need to first make a mount point on my garuda /mnt directory. Then mounting that automatically using fstab on each bootup. 
+
+1. greping blkid of pve root using 
+
+```bash
+sudo blkid | grep "/dev/mapper/pve-root" | awk -F '"' '{print $2}'
+``` 
+
+2. making a directory in mnt
+
+```bash
+sudo mkdir /mnt/pve-root
+```
+
+3. updating fstab
 
 ### Configuration
 
