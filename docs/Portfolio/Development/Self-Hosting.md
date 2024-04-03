@@ -64,3 +64,11 @@ I am familiar with the following virtualisation technologies.
 - OPNsense
 - PFSense
 
+# Applications 
+
+
+The following are what i've tried self hosting on my homelab
+
+| App name | Type |
+| ---------| -----| 
+| Pihole | DNS based Adblocker|
