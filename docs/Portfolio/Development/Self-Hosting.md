@@ -5,9 +5,17 @@ I am familiar with the following operating systems.
 ## Desktop 
 
 - GNU/Linux
+  - Debian (and all its derivative distros like kali, parrot etc)
+  - Arch Linux (and all its derivative distros like blackarch, manjaro etc) 
 - FreeBSD
 - Macintosh
 - Windows
+  - Vista
+  - XP
+  - 7
+  - 8.1
+  - 10
+  - 11   
 
 ## Mobile
 
@@ -15,6 +23,16 @@ I am familiar with the following operating systems.
 - Samsung's Tizen
 - Apple's IOS
 - Microsoft Windows
+
+## Tablets
+
+- Apple's Ipad OS
+
+## Miscellaneous 
+
+- Samsung Dex
+- AOSP Desktop Mode
+
 
 
 # Virtualisation
