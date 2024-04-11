@@ -63,7 +63,7 @@ nav:
     - Introduction: "index.md"
     - Track-Record: "Home/Track-Record.md"
     #- Documentation: "Home/Documentation.md"
-    #- Archive: "Home/Archive.md"
+    #- EOL: "Home/EOL.md"
   - Developement-Setup:
       - Introduction: "Developement-Setup/Introduction.md"
       - Device-Names: "Developement-Setup/Naming.md"
@@ -98,7 +98,7 @@ nav:
                 - Latitude-E6420: "Developement-Setup/Owned-Devices/Laptops/Dell/2023/June/Dell-Latitude-E6420.md"
           - MSI:
             - 2023:
-              - August-Present: 
+              - August: 
                 - GF63-Thin: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Introduction.md"
                 - Micron: 
                   - Windows-11: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Micron-Drive/Windows-11.md" 
@@ -111,11 +111,20 @@ nav:
                         - Pihole : "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Containers/Pihole.md"
                       - VMs:
                         - PFSense: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Virtual-Machines/PFsense.md"
+                        - Garuda : "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Virtual-Machines/garuda.md"
+                        - Windows-10 : "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Virtual-Machines/garuda.md"
+                        - Garuda : "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Promox/Virtual-Machines/garuda.md"
                     - Failure-Log: "Developement-Setup/Owned-Devices/Laptops/MSI/2023/August/Crucial-Drive/Failure-Log.md"
             - 2024:
               - January:
                 - Micron:
                     - Garuda-Linux : "Developement-Setup/Owned-Devices/Laptops/MSI/2024/January/Micron-Drive/Garuda-Linux.md"
+              - April:
+                - Micron : 
+                    - Proxmox : 
+                      - Host: ""
+                      - VMS : ""
+                      - Containers : "" 
       - Team Devices: 
         #- Android
         - Desktops:
@@ -157,9 +166,9 @@ nav:
     - Personal Brand:
       - Marketing: "SOPs/Marketing.md"
       - Emails: "SOPs/Emails.md"
-  - Archive:
-    - Introduction: "Archive/Introduction.md"
-    - Hugo: "Archive/Hugo.md"            
+  - EOL:
+    - Introduction: "EOL/Introduction.md"
+    - Hugo: "EOL/Hugo.md"            
 
 
 extra:

@@ -18,3 +18,6 @@ We are using this device to store bare metal operating systems. Which would act 
 This would install proxmox ve, a type-1 hypervisor which would emulate our home lab needs on a budget. Who can buy a true 1U server while being a student. So MSI laptop with 64GB ram would be well enough. I GUESS!!!
 
 1. [Proxmox](./Crucial-Drive/Proxmox.md )
+
+
+
