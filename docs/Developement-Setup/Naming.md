@@ -108,7 +108,7 @@ For router we are using names which power all these instruments like dhun, dhwan
 - Example: "webserver" (where hostname is webserver).
 
 ###### **CID Range:**
-- CID for production containers should start from 200 and go up to 300.
+- CID for production containers should start from 100 and go up to 200.
 
 ###### **Example:**
 - If the hostname is "webapp", the container name would be "webapp". The container displayed in the management console is using this format "CID (HOSTNAME)".
